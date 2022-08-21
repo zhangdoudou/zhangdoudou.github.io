@@ -6,15 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>ZDD&#39;s Blog</title>
+  <title>Hello World | ZDD&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Always be active">
+  <meta name="description" content="欢迎 Hexo! 这是我的第一篇博客. 访问 documentation 获取更多官方信息.主要记录一些常用发博客的操作。 Quick StartCreate a new post1$ hexo new &quot;My New Post&quot; More info: Writing Run server1$ hexo server More info: Server Generate sta">
 <meta property="og:type" content="website">
-<meta property="og:title" content="ZDD&#39;s Blog">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:title" content="Hello World">
+<meta property="og:url" content="http://example.com/hello-world.html">
 <meta property="og:site_name" content="ZDD&#39;s Blog">
-<meta property="og:description" content="Always be active">
+<meta property="og:description" content="欢迎 Hexo! 这是我的第一篇博客. 访问 documentation 获取更多官方信息.主要记录一些常用发博客的操作。 Quick StartCreate a new post1$ hexo new &quot;My New Post&quot; More info: Writing Run server1$ hexo server More info: Server Generate sta">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-08-21T18:00:03.802Z">
+<meta property="article:modified_time" content="2022-08-21T17:22:59.098Z">
 <meta property="article:author" content="Zhang DD">
 <meta name="twitter:card" content="summary">
   
@@ -152,108 +154,20 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-复现Word2vec模型CBOW" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="page-" class="article article-type-page " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/08/21/%E5%A4%8D%E7%8E%B0Word2vec%E6%A8%A1%E5%9E%8BCBOW/">复现Word2vec模型CBOW</a>
+    <h1 class="article-title" itemprop="name">
+      Hello World
     </h1>
   
 
         
-        <a href="/2022/08/21/%E5%A4%8D%E7%8E%B0Word2vec%E6%A8%A1%E5%9E%8BCBOW/" class="archive-article-date">
-  	<time datetime="2022-08-21T13:30:48.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-08-21</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <hr>
-<p><strong>前言</strong></p>
-<p>本文word2vec原理参考：<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_35757704/article/details/124559926">https://blog.csdn.net/weixin_35757704/article/details/124559926</a></p>
-<p>看过之后，基本上是能够理解的，在自己的电脑上运行时，对一些地方有困惑，经过查阅相关资料后才搞懂，另外，原博客中的代码还有一些bug一并解决。</p>
-<h5 id="CBOW是如何实现的"><a href="#CBOW是如何实现的" class="headerlink" title="CBOW是如何实现的"></a>CBOW是如何实现的</h5><p><img src="https://github.com/AtZDD/imgs/blob/main/3f59d0614c494a9eb8faa55b61e8e192.png" alt="CBOW的流程示例"></p>
-<p>结合上述原理图，可以知道CBOW训练的主要思路是用背景词预测中心词。在没有看代码之前，对于损失计算，我的想法是：使用背景词的预测结果与当前中心词的词嵌入向量计算损失。实际上训练词嵌入的网络的最后一层的形状是（隐藏层个数，单词表个数），所以在最后一层前应该要做softmax，这种做法应该是更合适的，使用当前中心词的词嵌入向量是一种以当前最优值替代理想最优的想法，应该也能行得通，不过可能训练的时间要更久（没有实验验证）。</p>
-<h5 id="交叉熵损失"><a href="#交叉熵损失" class="headerlink" title="交叉熵损失"></a>交叉熵损失</h5><p>在看到使用交叉熵损失代码的时候，一看到会觉得不太对劲，损失计算的前后两个对象并不一致，这个就属于代码经验不足了。</p>
-<h5 id="一个运行错误"><a href="#一个运行错误" class="headerlink" title="一个运行错误"></a>一个运行错误</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># loss = criterion(model_out, center_token)</span></span><br><span class="line">loss = criterion(model_out, center_token.long())</span><br></pre></td></tr></table></figure>
-<p>原代码是python2版本的，直接运行会报错误“RuntimeError: expected scalar type Long but found Int”，修改一下即可。</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">NLP</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">深度学习</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/08/21/%E5%A4%8D%E7%8E%B0Word2vec%E6%A8%A1%E5%9E%8BCBOW/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/03/07/hello-world/">Hello World</a>
-    </h1>
-  
-
-        
-        <a href="/2022/03/07/hello-world/" class="archive-article-date">
-  	<time datetime="2022-03-07T13:13:27.163Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-03-07</time>
+        <a href="/hello-world.html" class="archive-article-date">
+  	<time datetime="2022-08-21T18:00:03.802Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-08-22</time>
 </a>
         
       </header>
@@ -273,6 +187,27 @@
       
 
       
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
     </div>
     <div class="article-info article-info-index">
       
@@ -280,16 +215,65 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2022/03/07/hello-world/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/hello-world.html" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -309,8 +293,14 @@
 
 
 
+  
+  
+  
 
   
+
+  
+
   
 
 
@@ -333,7 +323,7 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
+		isHome: false,
 		isPost: false,
 		isArchive: false,
 		isTag: false,
@@ -402,14 +392,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">NLP</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">深度学习</a>
-              </li>
             
             <div class="clearfix"></div>
           </ul>
