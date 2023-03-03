@@ -20,24 +20,20 @@
     var CONFIG = {"hostname":"zhangdoudou.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":{"gitalk":{"order":-1}},"activeClass":"gitalk"},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="本文word2vec原理参考：NLP扎实基础2：Word2vec模型CBOW Pytorch复现">
-<meta property="og:type" content="article">
-<meta property="og:title" content="学习：复现Word2vec模型CBOW的过程记录">
-<meta property="og:url" content="https://zhangdoudou.github.io/2022/08/21/%E5%A4%8D%E7%8E%B0Word2vec%E6%A8%A1%E5%9E%8BCBOW/index.html">
+  <meta name="description" content="Always Fighting!">
+<meta property="og:type" content="website">
+<meta property="og:title" content="tags">
+<meta property="og:url" content="https://zhangdoudou.github.io/tags/index.html">
 <meta property="og:site_name" content="ZDD&#39;s Blog">
-<meta property="og:description" content="本文word2vec原理参考：NLP扎实基础2：Word2vec模型CBOW Pytorch复现">
+<meta property="og:description" content="Always Fighting!">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://cdn.jsdelivr.net/gh/AtZDD/imgs/Blogs/20220822022114.png">
-<meta property="article:published_time" content="2022-08-21T13:30:48.000Z">
-<meta property="article:modified_time" content="2022-09-17T08:46:13.780Z">
+<meta property="article:published_time" content="2023-03-03T15:34:56.000Z">
+<meta property="article:modified_time" content="2023-03-03T15:34:56.897Z">
 <meta property="article:author" content="Zhang Doudou">
-<meta property="article:tag" content="记录">
-<meta property="article:tag" content="NLP">
-<meta property="article:tag" content="深度学习">
+<meta property="article:tag" content="blog">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/AtZDD/imgs/Blogs/20220822022114.png">
 
-<link rel="canonical" href="https://zhangdoudou.github.io/2022/08/21/%E5%A4%8D%E7%8E%B0Word2vec%E6%A8%A1%E5%9E%8BCBOW/">
+<link rel="canonical" href="https://zhangdoudou.github.io/tags/">
 
 
 <script id="page-configurations">
@@ -45,12 +41,13 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : true,
+    isPost : false,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>学习：复现Word2vec模型CBOW的过程记录 | ZDD's Blog</title>
+  <title>tags | ZDD's Blog
+</title>
   
 
 
@@ -195,145 +192,43 @@
       <div class="main-inner">
         <div class="content-wrap">
           
+  
+  
 
-          <div class="content post posts-expand">
+          <div class="content page posts-expand">
             
 
     
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://zhangdoudou.github.io/2022/08/21/%E5%A4%8D%E7%8E%B0Word2vec%E6%A8%A1%E5%9E%8BCBOW/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/uploads/avatar.png">
-      <meta itemprop="name" content="Zhang Doudou">
-      <meta itemprop="description" content="Always Fighting!">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="ZDD's Blog">
-    </span>
+    
+    
+    <div class="post-block" lang="zh-CN">
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          学习：复现Word2vec模型CBOW的过程记录
-        </h1>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
+<h1 class="post-title" itemprop="name headline">tags
+</h1>
 
-              <time title="创建时间：2022-08-21 21:30:48" itemprop="dateCreated datePublished" datetime="2022-08-21T21:30:48+08:00">2022-08-21</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-09-17 16:46:13" itemprop="dateModified" datetime="2022-09-17T16:46:13+08:00">2022-09-17</time>
-              </span>
+<div class="post-meta">
+  
 
-          
-            <span id="/2022/08/21/%E5%A4%8D%E7%8E%B0Word2vec%E6%A8%A1%E5%9E%8BCBOW/" class="post-meta-item leancloud_visitors" data-flag-title="学习：复现Word2vec模型CBOW的过程记录" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
-            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span id="busuanzi_value_page_pv"></span>
-            </span><br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="far fa-file-word"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>378</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="far fa-clock"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>1 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-        <p>本文word2vec原理参考：<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_35757704/article/details/124559926">NLP扎实基础2：Word2vec模型CBOW Pytorch复现</a><br><span id="more"></span></p>
-<p>看过之后，基本上是能够理解的，在自己的电脑上运行时，对一些地方有困惑，经过查阅相关资料后才搞懂，另外，原博客中的代码还有一些bug一并解决。</p>
-<h4 id="1-CBOW是如何实现的"><a href="#1-CBOW是如何实现的" class="headerlink" title="1. CBOW是如何实现的"></a>1. CBOW是如何实现的</h4><p><img src="https://cdn.jsdelivr.net/gh/AtZDD/imgs/Blogs/20220822022114.png" alt="20220822022114"></p>
-<p>结合上述原理图，可以知道CBOW训练的主要思路是用背景词预测中心词。在没有看代码之前，对于损失计算，我的想法是：使用背景词的预测结果与当前中心词的词嵌入向量计算损失。实际上训练词嵌入的网络的最后一层的形状是（隐藏层个数，单词表个数），所以在最后一层前应该要做softmax，这种做法应该是更合适的，使用当前中心词的词嵌入向量是一种以当前最优值替代理想最优的想法，应该也能行得通，不过可能训练的时间要更久（没有实验验证）。</p>
-<h4 id="2-交叉熵损失"><a href="#2-交叉熵损失" class="headerlink" title="2. 交叉熵损失"></a>2. 交叉熵损失</h4><p>在看到使用交叉熵损失代码的时候，一看到会觉得不太对劲，损失计算的前后两个对象并不一致，这个就属于代码经验不足了。</p>
-<h5 id="一个运行错误"><a href="#一个运行错误" class="headerlink" title="一个运行错误"></a>一个运行错误</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># loss = criterion(model_out, center_token)</span></span><br><span class="line">loss = criterion(model_out, center_token.long())</span><br></pre></td></tr></table></figure>
-<p>原代码是python2版本的，直接运行会报错误“RuntimeError: expected scalar type Long but found Int”，修改一下即可。</p>
-
-    </div>
-
-    
-    
-    
-        
-
-<div>
-<ul class="post-copyright">
-  <li class="post-copyright-author">
-    <strong>本文作者： </strong>Zhang Doudou
-  </li>
-  <li class="post-copyright-link">
-    <strong>本文链接：</strong>
-    <a href="https://zhangdoudou.github.io/2022/08/21/%E5%A4%8D%E7%8E%B0Word2vec%E6%A8%A1%E5%9E%8BCBOW/" title="学习：复现Word2vec模型CBOW的过程记录">https://zhangdoudou.github.io/2022/08/21/复现Word2vec模型CBOW/</a>
-  </li>
-  <li class="post-copyright-license">
-    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
-  </li>
-</ul>
 </div>
 
+</header>
 
-      <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/%E8%AE%B0%E5%BD%95/" rel="tag"># 记录</a>
-              <a href="/tags/NLP/" rel="tag"># NLP</a>
-              <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" rel="tag"># 深度学习</a>
-          </div>
-
-        
-
-
-        
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/2022/03/07/hello-world/" rel="prev" title="Hexo：Hello World！">
-      <i class="fa fa-chevron-left"></i> Hexo：Hello World！
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/2022/08/23/%E5%A4%8D%E7%8E%B0Word2vec%E6%A8%A1%E5%9E%8BSkipGram/" rel="next" title="学习：复现Word2vec模型Skip-Gram的过程记录">
-      学习：复现Word2vec模型Skip-Gram的过程记录 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      
+      
+      
+      <div class="post-body">
+          
+      </div>
+      
+      
+      
     </div>
-      </footer>
     
-  </article>
-  
-  
-  
 
+    
+    
+    
 
 
           </div>
@@ -385,7 +280,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-CBOW%E6%98%AF%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E7%9A%84"><span class="nav-number">1.</span> <span class="nav-text">1. CBOW是如何实现的</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-%E4%BA%A4%E5%8F%89%E7%86%B5%E6%8D%9F%E5%A4%B1"><span class="nav-number">2.</span> <span class="nav-text">2. 交叉熵损失</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%B8%80%E4%B8%AA%E8%BF%90%E8%A1%8C%E9%94%99%E8%AF%AF"><span class="nav-number">2.1.</span> <span class="nav-text">一个运行错误</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -647,7 +541,7 @@ NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
       repo        : 'zhangdoudou.github.io',
       owner       : 'zhangdoudou',
       admin       : ['zhangdoudou'],
-      id          : 'dd5fe5d04fbfd1ba1524cbdf56e81ce6',
+      id          : 'f47af1d1eda4d807b02bba32be15120b',
         language: '',
       distractionFreeMode: true
     });
