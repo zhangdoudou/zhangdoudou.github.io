@@ -1,53 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo：Hello World！</title>
-    <url>/2022/03/07/hello-world/</url>
-    <content><![CDATA[<p>欢迎 <a href="https://hexo.io/">Hexo</a>! 这是我的第一篇博客. 访问 <a href="https://hexo.io/docs/">documentation</a> 获取更多官方信息.本文主要记录一些常用发博客的操作以及遇到的问题。<br><span id="more"></span></p>
-<h3 id="一、快速开始"><a href="#一、快速开始" class="headerlink" title="一、快速开始"></a>一、快速开始</h3><h4 id="1-发布一篇新博客"><a href="#1-发布一篇新博客" class="headerlink" title="1. 发布一篇新博客"></a>1. 发布一篇新博客</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>更多信息: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h4 id="2-运行服务器"><a href="#2-运行服务器" class="headerlink" title="2. 运行服务器"></a>2. 运行服务器</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>更多信息: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h4 id="3-生成静态文件"><a href="#3-生成静态文件" class="headerlink" title="3. 生成静态文件"></a>3. 生成静态文件</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>更多信息: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h4 id="4-部署到远程网站"><a href="#4-部署到远程网站" class="headerlink" title="4. 部署到远程网站"></a>4. 部署到远程网站</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>更多信息: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<h4 id="5-上传图片"><a href="#5-上传图片" class="headerlink" title="5. 上传图片"></a>5. 上传图片</h4><p>图床使用github + picgo + vscode。<br>从剪贴板处上传图片: Ctrl + Alt + U<br>从文件管理器上传图片: Ctrl + Alt + E</p>
-<h4 id="6-文章评论"><a href="#6-文章评论" class="headerlink" title="6. 文章评论"></a>6. 文章评论</h4><p>使用<a href="https://github.com/settings/applications/new">Gitment</a>支持评论管理， gitment是imsun利用github上的issues做的评论系统，注册简单，实现方便，还没有广告。</p>
-<h3 id="二、遇到的问题"><a href="#二、遇到的问题" class="headerlink" title="二、遇到的问题"></a>二、遇到的问题</h3><h4 id="1-博客根目录与主题目录下-config-yml文件不一致"><a href="#1-博客根目录与主题目录下-config-yml文件不一致" class="headerlink" title="1. 博客根目录与主题目录下_config.yml文件不一致"></a>1. 博客根目录与主题目录下_config.yml文件不一致</h4><p>博客根目录与主题目录下都有_config.yml文件，如果发生冲突的话后者的优先级较高，可以在后者配置局部的、与某一主题强相关的配置，而在前者配置所有主题都适用的全局配置。<br>有很多东西已经配置并且部署后没有显示，可能是因为没有在主题目录下进行配置。</p>
-<h4 id="2-“所有文章”模块缺失"><a href="#2-“所有文章”模块缺失" class="headerlink" title="2. “所有文章”模块缺失"></a>2. “所有文章”模块缺失</h4><p>添加“所有文章”功能的流程主要参考<a href="https://blog.51cto.com/u_15477117/4919758">hexo博客添加本地搜索功能</a>。</p>
-<h4 id="3-yilia主题作者名字不显示"><a href="#3-yilia主题作者名字不显示" class="headerlink" title="3. yilia主题作者名字不显示"></a>3. yilia主题作者名字不显示</h4><p><a href="https://blog.csdn.net/monster_rl/article/details/112292045">解决 hexo yilia主题作者名字不显示问题</a></p>
-<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ol>
-<li><a href="https://zhuanlan.zhihu.com/p/26625249/">GitHub+Hexo 搭建个人网站详细教程</a></li>
-<li><a href="https://blog.csdn.net/qq_41603102/article/details/112597479">使用GitHub搭建个人免费快速的图床</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/56943330">使用vscode开始Markdown写作之旅</a></li>
-<li><a href="https://blog.csdn.net/weixin_43935907/article/details/89335062">Hexo博客yilia主题添加Gitment评论系统</a></li>
-</ol>
-]]></content>
-      <tags>
-        <tag>博客</tag>
-        <tag>hexo</tag>
-        <tag>yilia</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>学习：复现Word2vec模型CBOW的过程记录</title>
-    <url>/2022/08/21/%E5%A4%8D%E7%8E%B0Word2vec%E6%A8%A1%E5%9E%8BCBOW/</url>
-    <content><![CDATA[<p>本文word2vec原理参考：<a href="https://blog.csdn.net/weixin_35757704/article/details/124559926">NLP扎实基础2：Word2vec模型CBOW Pytorch复现</a><br><span id="more"></span></p>
-<p>看过之后，基本上是能够理解的，在自己的电脑上运行时，对一些地方有困惑，经过查阅相关资料后才搞懂，另外，原博客中的代码还有一些bug一并解决。</p>
-<h3 id="1-CBOW是如何实现的"><a href="#1-CBOW是如何实现的" class="headerlink" title="1. CBOW是如何实现的"></a>1. CBOW是如何实现的</h3><p><img src="https://cdn.jsdelivr.net/gh/AtZDD/imgs/Blogs/20220822022114.png" alt="20220822022114"></p>
-<p>结合上述原理图，可以知道CBOW训练的主要思路是用背景词预测中心词。在没有看代码之前，对于损失计算，我的想法是：使用背景词的预测结果与当前中心词的词嵌入向量计算损失。实际上训练词嵌入的网络的最后一层的形状是（隐藏层个数，单词表个数），所以在最后一层前应该要做softmax，这种做法应该是更合适的，使用当前中心词的词嵌入向量是一种以当前最优值替代理想最优的想法，应该也能行得通，不过可能训练的时间要更久（没有实验验证）。</p>
-<h3 id="2-交叉熵损失"><a href="#2-交叉熵损失" class="headerlink" title="2. 交叉熵损失"></a>2. 交叉熵损失</h3><p>在看到使用交叉熵损失代码的时候，一看到会觉得不太对劲，损失计算的前后两个对象并不一致，这个就属于代码经验不足了。</p>
-<h5 id="一个运行错误"><a href="#一个运行错误" class="headerlink" title="一个运行错误"></a>一个运行错误</h5><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># loss = criterion(model_out, center_token)</span></span><br><span class="line">loss = criterion(model_out, center_token.long())</span><br></pre></td></tr></table></figure>
-<p>原代码是python2版本的，直接运行会报错误“RuntimeError: expected scalar type Long but found Int”，修改一下即可。</p>
-]]></content>
-      <tags>
-        <tag>NLP</tag>
-        <tag>深度学习</tag>
-        <tag>记录</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>二分</title>
     <url>/2022/10/11/%E4%BA%8C%E5%88%86/</url>
     <content><![CDATA[<p>不同于有序数组的简单二分查找，<a href="https://www.acwing.com/problem/content/791/">789. 数的范围</a>在更新区间时包含mid，需要考虑边界问题。<br><span id="more"></span></p>
@@ -121,10 +74,57 @@
 <p>对于Skip-Gram模型来说，优化的目标是：中心词与背景词的内积要小，与噪声词的内积要大，乍一看似乎是因为“句子中挨得越近的词越相似，离的越远的词越不同”，但我认为其实是</p>
 ]]></content>
       <tags>
+        <tag>记录</tag>
         <tag>NLP</tag>
         <tag>深度学习</tag>
-        <tag>记录</tag>
         <tag>未完成</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>学习：复现Word2vec模型CBOW的过程记录</title>
+    <url>/2022/08/21/%E5%A4%8D%E7%8E%B0Word2vec%E6%A8%A1%E5%9E%8BCBOW/</url>
+    <content><![CDATA[<p>本文word2vec原理参考：<a href="https://blog.csdn.net/weixin_35757704/article/details/124559926">NLP扎实基础2：Word2vec模型CBOW Pytorch复现</a><br><span id="more"></span></p>
+<p>看过之后，基本上是能够理解的，在自己的电脑上运行时，对一些地方有困惑，经过查阅相关资料后才搞懂，另外，原博客中的代码还有一些bug一并解决。</p>
+<h3 id="1-CBOW是如何实现的"><a href="#1-CBOW是如何实现的" class="headerlink" title="1. CBOW是如何实现的"></a>1. CBOW是如何实现的</h3><p><img src="https://cdn.jsdelivr.net/gh/AtZDD/imgs/Blogs/20220822022114.png" alt="20220822022114"></p>
+<p>结合上述原理图，可以知道CBOW训练的主要思路是用背景词预测中心词。在没有看代码之前，对于损失计算，我的想法是：使用背景词的预测结果与当前中心词的词嵌入向量计算损失。实际上训练词嵌入的网络的最后一层的形状是（隐藏层个数，单词表个数），所以在最后一层前应该要做softmax，这种做法应该是更合适的，使用当前中心词的词嵌入向量是一种以当前最优值替代理想最优的想法，应该也能行得通，不过可能训练的时间要更久（没有实验验证）。</p>
+<h3 id="2-交叉熵损失"><a href="#2-交叉熵损失" class="headerlink" title="2. 交叉熵损失"></a>2. 交叉熵损失</h3><p>在看到使用交叉熵损失代码的时候，一看到会觉得不太对劲，损失计算的前后两个对象并不一致，这个就属于代码经验不足了。</p>
+<h5 id="一个运行错误"><a href="#一个运行错误" class="headerlink" title="一个运行错误"></a>一个运行错误</h5><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># loss = criterion(model_out, center_token)</span></span><br><span class="line">loss = criterion(model_out, center_token.long())</span><br></pre></td></tr></table></figure>
+<p>原代码是python2版本的，直接运行会报错误“RuntimeError: expected scalar type Long but found Int”，修改一下即可。</p>
+]]></content>
+      <tags>
+        <tag>记录</tag>
+        <tag>NLP</tag>
+        <tag>深度学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo：Hello World！</title>
+    <url>/2022/03/07/hello-world/</url>
+    <content><![CDATA[<p>欢迎 <a href="https://hexo.io/">Hexo</a>! 这是我的第一篇博客. 访问 <a href="https://hexo.io/docs/">documentation</a> 获取更多官方信息.本文主要记录一些常用发博客的操作以及遇到的问题。<br><span id="more"></span></p>
+<h3 id="一、快速开始"><a href="#一、快速开始" class="headerlink" title="一、快速开始"></a>一、快速开始</h3><h4 id="1-发布一篇新博客"><a href="#1-发布一篇新博客" class="headerlink" title="1. 发布一篇新博客"></a>1. 发布一篇新博客</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>更多信息: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h4 id="2-运行服务器"><a href="#2-运行服务器" class="headerlink" title="2. 运行服务器"></a>2. 运行服务器</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>更多信息: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h4 id="3-生成静态文件"><a href="#3-生成静态文件" class="headerlink" title="3. 生成静态文件"></a>3. 生成静态文件</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>更多信息: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h4 id="4-部署到远程网站"><a href="#4-部署到远程网站" class="headerlink" title="4. 部署到远程网站"></a>4. 部署到远程网站</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>更多信息: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h4 id="5-上传图片"><a href="#5-上传图片" class="headerlink" title="5. 上传图片"></a>5. 上传图片</h4><p>图床使用github + picgo + vscode。<br>从剪贴板处上传图片: Ctrl + Alt + U<br>从文件管理器上传图片: Ctrl + Alt + E</p>
+<h4 id="6-文章评论"><a href="#6-文章评论" class="headerlink" title="6. 文章评论"></a>6. 文章评论</h4><p>使用<a href="https://github.com/settings/applications/new">Gitment</a>支持评论管理， gitment是imsun利用github上的issues做的评论系统，注册简单，实现方便，还没有广告。</p>
+<h3 id="二、遇到的问题"><a href="#二、遇到的问题" class="headerlink" title="二、遇到的问题"></a>二、遇到的问题</h3><h4 id="1-博客根目录与主题目录下-config-yml文件不一致"><a href="#1-博客根目录与主题目录下-config-yml文件不一致" class="headerlink" title="1. 博客根目录与主题目录下_config.yml文件不一致"></a>1. 博客根目录与主题目录下_config.yml文件不一致</h4><p>博客根目录与主题目录下都有_config.yml文件，如果发生冲突的话后者的优先级较高，可以在后者配置局部的、与某一主题强相关的配置，而在前者配置所有主题都适用的全局配置。<br>有很多东西已经配置并且部署后没有显示，可能是因为没有在主题目录下进行配置。</p>
+<h4 id="2-“所有文章”模块缺失"><a href="#2-“所有文章”模块缺失" class="headerlink" title="2. “所有文章”模块缺失"></a>2. “所有文章”模块缺失</h4><p>添加“所有文章”功能的流程主要参考<a href="https://blog.51cto.com/u_15477117/4919758">hexo博客添加本地搜索功能</a>。</p>
+<h4 id="3-yilia主题作者名字不显示"><a href="#3-yilia主题作者名字不显示" class="headerlink" title="3. yilia主题作者名字不显示"></a>3. yilia主题作者名字不显示</h4><p><a href="https://blog.csdn.net/monster_rl/article/details/112292045">解决 hexo yilia主题作者名字不显示问题</a></p>
+<h3 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h3><ol>
+<li><a href="https://zhuanlan.zhihu.com/p/26625249/">GitHub+Hexo 搭建个人网站详细教程</a></li>
+<li><a href="https://blog.csdn.net/qq_41603102/article/details/112597479">使用GitHub搭建个人免费快速的图床</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/56943330">使用vscode开始Markdown写作之旅</a></li>
+<li><a href="https://blog.csdn.net/weixin_43935907/article/details/89335062">Hexo博客yilia主题添加Gitment评论系统</a></li>
+</ol>
+]]></content>
+      <tags>
+        <tag>博客</tag>
+        <tag>hexo</tag>
+        <tag>yilia</tag>
       </tags>
   </entry>
 </search>
