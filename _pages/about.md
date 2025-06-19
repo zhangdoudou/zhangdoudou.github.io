@@ -19,7 +19,7 @@ redirect_from:
 
 I am a first year M.Phil. student in Artificial Intelligence at [Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/), supervised by Prof.[Ying-Cong Chen](https://www.yingcong.me/), he is super nice! Previously, I obtained a bachelor degree in Network Engneering at [Wuhan University](https://www.whu.edu.cn/) with Honors. 
 
-My research interests include video generation, computer vision．
+My research interests include video generation, computer vision.
 
 # 🔥 News
 
@@ -28,9 +28,9 @@ My research interests include video generation, computer vision．
 # 🎖 Honors and Awards
 - First Class Scholarship of Wuhan University (Award Rate: 5% school-wide), Wuhan University
 - Excellent Undergraduate Graduate Award (Top 10%), Wuhan University
-- First Prize in National College Students' Mathematical Modeling Contest (November 2021), Wuhan University
-- First Prize in Hubei Province College Students' Mathematics Competition (December 2020), Wuhan University
-- First Prize in Asia-Pacific Mathematical Modeling Contest (Top 5%, December 2020), Wuhan University
+- First Prize in National College Students' Mathematical Modeling Contest (November 2021), China Society for Industrial and Applied Mathematics
+- First Prize in Hubei Province College Students' Mathematics Competition (December 2020), Hubei Province Mathematical Society
+- First Prize in Asia-Pacific Mathematical Modeling Contest (Top 5%, December 2020), Beijing Society Of Image And Graphics
 
 # 📖 Educations
 - 2024.09 - Now, M.Phil, Artificial Intelligence, Hong Kong University of Science and Technology (Guangzhou).
