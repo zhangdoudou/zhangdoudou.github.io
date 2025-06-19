@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Doudou ZHANG"
-description              : "M.Phil. student in Artificial Intelligence at HKUST(GZ), supervised by Prof. Ying-Cong Chen. Research interests: video generation, computer vision."
+description              : "M.Phil. student at Hong Kong University of Science and Technology (Guangzhou)."
 repository               : "doudouzhang-x/doudouzhang-x.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,9 +21,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name: "Doudou ZHANG"
+  name: "Doudou ZHANG(张豆豆)"
   avatar: "images/android-chrome-512x512.png"
-  bio: "I am a first year M.Phil. student in Artificial Intelligence at HKUST(GZ), supervised by Prof. Ying-Cong Chen. Previously, I obtained a bachelor degree in Network Engineering at WHU with Honors. My research interests include video generation, computer vision."
+  bio: 
   location: "Guangzhou, China"
   employer:
   pubmed:
