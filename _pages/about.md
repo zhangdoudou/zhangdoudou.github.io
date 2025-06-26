@@ -75,7 +75,8 @@ I am a first year M.Phil. student in Artificial Intelligence at [Hong Kong Unive
 
 My research interests include video generation, computer vision.
 
-// # 🔥 News
+# 🔥 News
+- *2024.09*: &nbsp;🎉🎉 I started my M.Phil. study at HKUST(GZ) under the supervision of Prof.Ying-Cong Chen.
 
 
 # 📝 Publications
@@ -89,7 +90,7 @@ My research interests include video generation, computer vision.
 Multi-View Consistency</a></dd>
   <dd>Xingbo Yao<sup>&dagger;</sup>, XuanminWang<sup>&dagger;</sup>, Hao WU<sup>&dagger;</sup>, Chengliang PING, <strong>Doudou ZHANG</strong>,Hui Xiong*</dd>
   <dd>International Conference on Computer Vision <strong>(ICCV)</strong>, 2025</dd>
-  <dd style="color:#B02418;"><strong>Oral Presentation</strong></dd>
+  <dd style="color:#B02418;"><strong>Poster</strong></dd>
 </dl>
 
 
