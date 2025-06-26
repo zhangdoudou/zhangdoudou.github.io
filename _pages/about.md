@@ -84,7 +84,7 @@ My research interests include video generation, computer vision.
 <hr>
 
 <dl>
-  <dt><img align="left" width="400" src="../images/paper/magiccity.png" alt="MagicCity"></dt>
+  <dt><img align="left" width="400" src="../images/papers/magiccity.png" alt="MagicCity"></dt>
   <dd><a href="https://arxiv.org/abs/2503.16843" class="publication-title">MagicCity: Geometry-Aware 3D City Generation from Satellite Imagery with
 Multi-View Consistency</a></dd>
   <dd>Xingbo Yao<sup>&dagger;</sup>, XuanminWang<sup>&dagger;</sup>, Hao WU<sup>&dagger;</sup>, Chengliang PING, <strong>Doudou ZHANG</strong>,Hui Xiong*</dd>
