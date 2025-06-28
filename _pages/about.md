@@ -93,6 +93,7 @@ Multi-View Consistency</a></dd>
   <dd style="color:#B02418;"><strong>Poster</strong></dd>
 </dl>
 
+<hr>
 
 # 🎖 Honors and Awards
 - First Class Scholarship of Wuhan University (Award Rate: 5% school-wide), Wuhan University
