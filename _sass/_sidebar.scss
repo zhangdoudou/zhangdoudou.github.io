@@ -15,7 +15,6 @@
 
   @include breakpoint($large) {
     @include span(2 of 12);
-    min-width: 180px; // 确保侧边栏有足够宽度
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -28,7 +27,6 @@
 
   @include breakpoint($x-large) {
     padding-right: 0;
-    min-width: 200px; // 在大屏幕上进一步增加宽度
   }
 
   h2, h3, h4, h5, h6 {
@@ -98,11 +96,11 @@
   img {
     max-width: 175px;
     min-width: 75px;
-    border-radius: 50%;
+    border-radius: 0;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      padding: 0;
+      border: 0;
     }
   }
 }
@@ -135,11 +133,18 @@
 }
 
 .sidebar .author__name {
+  font-family: $sans-serif;
+  font-size: $type-size-4;
+
+  // On medium screens the sidebar isn't floated yet, so we can afford a larger name.
   @include breakpoint($medium) {
     font-size: $type-size-3;
   }
-  font-family: $sans-serif;
-  font-size: $type-size-4;
+
+  // Once the sidebar becomes a narrow floated column, keep the name compact to avoid awkward wrapping.
+  @include breakpoint($large) {
+    font-size: $type-size-4;
+  }
 }
 
 .author__bio {

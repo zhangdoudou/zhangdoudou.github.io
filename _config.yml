@@ -21,9 +21,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name: "Doudou ZHANG<br>张豆豆"
-  avatar: "images/avatar-1024x1024.png"
-  bio: "M.Phil. at HKUST(GZ)."
+  name: "Doudou&nbsp;ZHANG<br>张豆豆"
+  avatar: "images/avatar-1696x1696.png"
+  bio: 
   location: "Guangzhou, China"
   employer:
   pubmed:

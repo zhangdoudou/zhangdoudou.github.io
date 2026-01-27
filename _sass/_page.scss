@@ -25,11 +25,21 @@
 
   .page__inner-wrap {
     @include full();
+    // Susy's `full()` includes a `clear: both` (via `break`) which can push
+    // the entire content block below the floating sidebar, leaving a large
+    // blank area to the right.
+    clear: none;
+    float: none;
 
     .page__content,
     .page__meta,
     .page__share {
       @include full();
+      // Susy's `full()` includes a `clear: both` (via `break`) which can push
+      // main content below the floating sidebar, leaving a large blank area.
+      // Override the clear behavior so content stays in the main column.
+      clear: none;
+      float: none;
     }
   }
 }
