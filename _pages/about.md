@@ -112,42 +112,24 @@ My research interests focus on Diffusion Model and generative models, and partic
 
 <hr>
 
-<dl>
-  <!-- <dt><img align="left" width="400" src="../images/papers/magiccity.png" alt="MagicCity"></dt> -->
-  <dd><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Yao_MagicCity_Geometry-Aware_3D_City_Generation_from_Satellite_Imagery_with_Multi-View_ICCV_2025_paper.html" class="publication-title">MagicCity: Geometry-Aware 3D City Generation from Satellite Imagery with
-Multi-View Consistency</a></dd>
-  <dd>Xingbo Yao<sup>&dagger;</sup>, XuanminWang<sup>&dagger;</sup>, Hao WU<sup>&dagger;</sup>, Chengliang PING, <strong>Doudou ZHANG</strong>,Hui Xiong<sup>*</sup></dd>
-  <dd>International Conference on Computer Vision <strong>(ICCV)</strong>, 2025</dd>
-  <dd style="color:#B02418;"><strong>Poster</strong></dd>
-</dl>
+- <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Yao_MagicCity_Geometry-Aware_3D_City_Generation_from_Satellite_Imagery_with_Multi-View_ICCV_2025_paper.html" class="publication-title">MagicCity: Geometry-Aware 3D City Generation from Satellite Imagery with
+Multi-View Consistency</a><br>
+  Xingbo Yao<sup>&dagger;</sup>, XuanminWang<sup>&dagger;</sup>, Hao WU<sup>&dagger;</sup>, Chengliang PING, <strong>Doudou ZHANG</strong>,Hui Xiong<sup>*</sup><br>
+  International Conference on Computer Vision <strong>(ICCV)</strong>, 2025<br>
+  <span style="color:#B02418;"><strong>Poster</strong></span>
 
 <hr>
 
-<dl>
-  <!-- <dt></dt> -->
-  <dd><a href="https://aclanthology.org/2025.emnlp-main.1133/" class="publication-title">Orchestrating Audio: Multi-Agent Framework for Long-Video Audio Synthesis</a></dd>
-  <dd>Yehang Zhang<sup>&dagger;</sup>, Xinli Xu<sup>&dagger;</sup>, Xiaojie Xu<sup>&dagger;</sup>, <strong>Doudou Zhang</strong>, Li Liu<sup>*</sup>, Ying-Cong Chen<sup>*</sup></dd>
-  <dd>Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025</dd>
-  <dd style="color:#B02418;"><strong>Conference</strong></dd>
-</dl>
+- <a href="https://aclanthology.org/2025.emnlp-main.1133/" class="publication-title">Orchestrating Audio: Multi-Agent Framework for Long-Video Audio Synthesis</a><br>
+  Yehang Zhang<sup>&dagger;</sup>, Xinli Xu<sup>&dagger;</sup>, Xiaojie Xu<sup>&dagger;</sup>, <strong>Doudou Zhang</strong>, Li Liu<sup>*</sup>, Ying-Cong Chen<sup>*</sup><br>
+  Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025<br>
+  <span style="color:#B02418;"><strong>Conference</strong></span>
 
 
-<!--
-# 🎖 Honors and Awards
-- First Class Scholarship of Wuhan University (Award Rate: 5% school-wide), Wuhan University
-- Excellent Undergraduate Graduate Award (Top 10%), Wuhan University
-- First Prize in National College Students' Mathematical Modeling Contest (November 2021), [China Society for Industrial and Applied Mathematics](https://csiam.org.cn/)
-- First Prize in Hubei Province College Students' Mathematics Competition (December 2020), [Hubei Province Mathematical Society](https://www.hbmath.com.cn/)
-- First Prize in Asia-Pacific Mathematical Modeling Contest (Top 5%, December 2020), [Beijing Society Of Image And Graphics](https://www.bsig.org.cn/)
-
-# 📖 Educations
-- 2024.09 - Now, M.Phil, Artificial Intelligence, Hong Kong University of Science and Technology (Guangzhou).
-- 2018.09 - 2023.06, Bachelor, Network Engineering, Wuhan University. 
--->
 
 # Internships
 - 2025.08 - 2025.12, Intern, [Tencent](https://www.tencent.com/), Beijing, China.
 
-<div class="visitor-map-container" style="text-align: center; margin-top: 10px;">
+<div class="visitor-map-container" style="text-align: center; margin-top: 30px;">
   <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=0htbO1aW3-I8XHiS_BNNqtV-BaMFOWnlRk40-OGO_R0&cl=ffffff&w=a"></script>
 </div>
