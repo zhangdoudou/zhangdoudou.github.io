@@ -78,8 +78,8 @@ My research interests focus on Diffusion Model and generative models, and partic
 - Generalization of Diffusion Model
 
 # News
-- *2025.09*: &nbsp;🎉 Our paper "Orchestrating Audio: Multi-Agent Framework for Long-Video Audio Synthesis"</a> was accepted to EMNLP 2025.
-- *2025.07*: &nbsp;🎉 Our paper "MagicCity: Geometry-Aware 3D City Generation from Satellite Imagery with Multi-View Consistency"</a> was accepted to ICCV 2025.
+- *2025.09*: &nbsp;🎉 Our paper "Orchestrating Audio: Multi-Agent Framework for Long-Video Audio Synthesis" was accepted to EMNLP 2025.
+- *2025.07*: &nbsp;🎉 Our paper "MagicCity: Geometry-Aware 3D City Generation from Satellite Imagery with Multi-View Consistency" was accepted to ICCV 2025.
 - *2024.09*: &nbsp;🎉🎉 I started my M.Phil. study at HKUST(GZ) under the supervision of Prof.Ying-Cong Chen.
 
 
@@ -92,7 +92,7 @@ My research interests focus on Diffusion Model and generative models, and partic
   <!-- <dt><img align="left" width="400" src="../images/papers/magiccity.png" alt="MagicCity"></dt> -->
   <dd><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Yao_MagicCity_Geometry-Aware_3D_City_Generation_from_Satellite_Imagery_with_Multi-View_ICCV_2025_paper.html" class="publication-title">MagicCity: Geometry-Aware 3D City Generation from Satellite Imagery with
 Multi-View Consistency</a></dd>
-  <dd>Xingbo Yao<sup>&dagger;</sup>, XuanminWang<sup>&dagger;</sup>, Hao WU<sup>&dagger;</sup>, Chengliang PING, <strong>Doudou ZHANG</strong>,Hui Xiong*</dd>
+  <dd>Xingbo Yao<sup>&dagger;</sup>, XuanminWang<sup>&dagger;</sup>, Hao WU<sup>&dagger;</sup>, Chengliang PING, <strong>Doudou ZHANG</strong>,Hui Xiong<sup>*</sup></dd>
   <dd>International Conference on Computer Vision <strong>(ICCV)</strong>, 2025</dd>
   <dd style="color:#B02418;"><strong>Poster</strong></dd>
 </dl>
@@ -102,12 +102,11 @@ Multi-View Consistency</a></dd>
 <dl>
   <!-- <dt></dt> -->
   <dd><a href="https://aclanthology.org/2025.emnlp-main.1133/" class="publication-title">Orchestrating Audio: Multi-Agent Framework for Long-Video Audio Synthesis</a></dd>
-  <dd>Yehang Zhang, Xinli Xu, Xiaojie Xu, <strong>Doudou Zhang</strong>, Li Liu, Ying-Cong Chen</dd>
+  <dd>Yehang Zhang<sup>&dagger;</sup>, Xinli Xu<sup>&dagger;</sup>, Xiaojie Xu<sup>&dagger;</sup>, <strong>Doudou Zhang</strong>, Li Liu<sup>*</sup>, Ying-Cong Chen<sup>*</sup></dd>
   <dd>Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025</dd>
   <dd style="color:#B02418;"><strong>Conference</strong></dd>
 </dl>
 
-<hr>
 
 <!--
 # 🎖 Honors and Awards
