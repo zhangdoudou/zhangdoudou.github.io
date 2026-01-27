@@ -71,22 +71,26 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a first year M.Phil. student in Artificial Intelligence at [Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/), supervised by [Prof.Ying-Cong Chen](https://www.yingcong.me/), he is super nice! Previously, I obtained a bachelor degree in Network Engneering at [Wuhan University](https://www.whu.edu.cn/) with Honors. 
+I am a second year M.Phil. student in Artificial Intelligence at [Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/), supervised by [Prof.Ying-Cong Chen](https://www.yingcong.me/), he is super nice! Previously, I obtained a bachelor degree in Network Engneering at [Wuhan University](https://www.whu.edu.cn/) with Honors. 
 
-My research interests include video generation, computer vision.
+My research interests focus on Diffusion Model and generative models, and particularly on the following topics:
+- Controllable Generation
+- Generalization of Diffusion Model
 
-# 🔥 News
+# News
+- *2025.09*: &nbsp;🎉 Our paper "Orchestrating Audio: Multi-Agent Framework for Long-Video Audio Synthesis"</a> was accepted to EMNLP 2025.
+- *2025.07*: &nbsp;🎉 Our paper "MagicCity: Geometry-Aware 3D City Generation from Satellite Imagery with Multi-View Consistency"</a> was accepted to ICCV 2025.
 - *2024.09*: &nbsp;🎉🎉 I started my M.Phil. study at HKUST(GZ) under the supervision of Prof.Ying-Cong Chen.
 
 
-# 📝 Publications
+# Publications
 &dagger;: equal contribution, * : corresponding author
 
 <hr>
 
 <dl>
-  <dt><img align="left" width="400" src="../images/papers/magiccity.png" alt="MagicCity"></dt>
-  <dd><a href="https://arxiv.org/abs/2503.16843" class="publication-title">MagicCity: Geometry-Aware 3D City Generation from Satellite Imagery with
+  <!-- <dt><img align="left" width="400" src="../images/papers/magiccity.png" alt="MagicCity"></dt> -->
+  <dd><a href="https://openaccess.thecvf.com/content/ICCV2025/html/Yao_MagicCity_Geometry-Aware_3D_City_Generation_from_Satellite_Imagery_with_Multi-View_ICCV_2025_paper.html" class="publication-title">MagicCity: Geometry-Aware 3D City Generation from Satellite Imagery with
 Multi-View Consistency</a></dd>
   <dd>Xingbo Yao<sup>&dagger;</sup>, XuanminWang<sup>&dagger;</sup>, Hao WU<sup>&dagger;</sup>, Chengliang PING, <strong>Doudou ZHANG</strong>,Hui Xiong*</dd>
   <dd>International Conference on Computer Vision <strong>(ICCV)</strong>, 2025</dd>
@@ -95,6 +99,17 @@ Multi-View Consistency</a></dd>
 
 <hr>
 
+<dl>
+  <!-- <dt></dt> -->
+  <dd><a href="https://aclanthology.org/2025.emnlp-main.1133/" class="publication-title">Orchestrating Audio: Multi-Agent Framework for Long-Video Audio Synthesis</a></dd>
+  <dd>Yehang Zhang, Xinli Xu, Xiaojie Xu, <strong>Doudou Zhang</strong>, Li Liu, Ying-Cong Chen</dd>
+  <dd>Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025</dd>
+  <dd style="color:#B02418;"><strong>Conference</strong></dd>
+</dl>
+
+<hr>
+
+<!--
 # 🎖 Honors and Awards
 - First Class Scholarship of Wuhan University (Award Rate: 5% school-wide), Wuhan University
 - Excellent Undergraduate Graduate Award (Top 10%), Wuhan University
@@ -105,3 +120,12 @@ Multi-View Consistency</a></dd>
 # 📖 Educations
 - 2024.09 - Now, M.Phil, Artificial Intelligence, Hong Kong University of Science and Technology (Guangzhou).
 - 2018.09 - 2023.06, Bachelor, Network Engineering, Wuhan University. 
+-->
+
+<hr>
+
+<div style="text-align: center; margin-top: 10px;">
+  <span>Website visitors:</span><br>
+  <script type="text/javascript" src="https://www.free-counters.org/count/jc8i"></script><br>
+  <script type="text/javascript" src="https://whomania.com/ctr?id=941605b8a248b0f42b42238b825af648dd30ed27"></script>
+</div>
