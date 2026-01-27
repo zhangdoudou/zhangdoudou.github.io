@@ -116,14 +116,12 @@ My research interests focus on Diffusion Model and generative models, and partic
 Multi-View Consistency</a><br>
   Xingbo Yao<sup>&dagger;</sup>, XuanminWang<sup>&dagger;</sup>, Hao WU<sup>&dagger;</sup>, Chengliang PING, <strong>Doudou ZHANG</strong>,Hui Xiong<sup>*</sup><br>
   International Conference on Computer Vision <strong>(ICCV)</strong>, 2025<br>
-  <span style="color:#B02418;"><strong>Poster</strong></span>
-
 <hr>
 
 - <a href="https://aclanthology.org/2025.emnlp-main.1133/" class="publication-title">Orchestrating Audio: Multi-Agent Framework for Long-Video Audio Synthesis</a><br>
   Yehang Zhang<sup>&dagger;</sup>, Xinli Xu<sup>&dagger;</sup>, Xiaojie Xu<sup>&dagger;</sup>, <strong>Doudou Zhang</strong>, Li Liu<sup>*</sup>, Ying-Cong Chen<sup>*</sup><br>
   Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025<br>
-  <span style="color:#B02418;"><strong>Conference</strong></span>
+  <a href="https://github.com/Yehang-Zhang/Orchestrating-Audio" target="_blank">Project Page</a>
 
 
 

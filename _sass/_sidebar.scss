@@ -15,6 +15,7 @@
 
   @include breakpoint($large) {
     @include span(2 of 12);
+    min-width: 180px; // 确保侧边栏有足够宽度
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -27,6 +28,7 @@
 
   @include breakpoint($x-large) {
     padding-right: 0;
+    min-width: 200px; // 在大屏幕上进一步增加宽度
   }
 
   h2, h3, h4, h5, h6 {
@@ -42,6 +44,8 @@
     font-family: $sans-serif;
     font-size: $type-size-6;
     line-height: 1.5;
+    word-wrap: break-word;
+    word-break: break-word;
   }
 
   img {
@@ -110,6 +114,8 @@
   min-width: 120px;
   // padding-right: 25px;
   line-height: 1;
+  word-wrap: break-word;
+  word-break: break-word;
 
   @include breakpoint($large) {
     display: block;
@@ -212,6 +218,7 @@
     border: 0;
     background: transparent;
     box-shadow: none;
+    width: 100%; // 确保占满侧边栏宽度
   }
 
   &:before {
@@ -249,7 +256,9 @@
   }
 
   li {
-    white-space: nowrap;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-word;
   }
 
   a {
