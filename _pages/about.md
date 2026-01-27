@@ -59,6 +59,28 @@ redirect_from:
   .co-first {
     color: #B02418;
   }
+
+  /* 限制访问者地图的大小 */
+  #mapmyvisitors {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+
+  /* 地图容器样式 */
+  .visitor-map-container {
+    max-width: 400px;
+    width: 100%;
+    margin: 10px auto;
+    overflow: hidden;
+  }
+
+  .visitor-map-container iframe,
+  .visitor-map-container div[id*="map"] {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: 300px !important;
+  }
   
 </style>
 
@@ -80,7 +102,7 @@ My research interests focus on Diffusion Model and generative models, and partic
 # News
 - *2025.09*: &nbsp;🎉 Our paper "Orchestrating Audio: Multi-Agent Framework for Long-Video Audio Synthesis" was accepted to EMNLP 2025.
 - *2025.07*: &nbsp;🎉 Our paper "MagicCity: Geometry-Aware 3D City Generation from Satellite Imagery with Multi-View Consistency" was accepted to ICCV 2025.
-- *2024.09*: &nbsp;🎉🎉 I started my M.Phil. study at HKUST(GZ) under the supervision of Prof.Ying-Cong Chen.
+- *2024.09*: &nbsp;🎉 I started my M.Phil. study at HKUST(GZ) under the supervision of Prof.Ying-Cong Chen.
 
 
 # Publications
@@ -121,6 +143,6 @@ Multi-View Consistency</a></dd>
 - 2018.09 - 2023.06, Bachelor, Network Engineering, Wuhan University. 
 -->
 
-<div style="text-align: center; margin-top: 10px;">
+<div class="visitor-map-container" style="text-align: center; margin-top: 10px;">
   <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=0htbO1aW3-I8XHiS_BNNqtV-BaMFOWnlRk40-OGO_R0&cl=ffffff&w=a"></script>
 </div>
