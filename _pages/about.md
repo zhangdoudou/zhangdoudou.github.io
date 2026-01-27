@@ -125,5 +125,6 @@ Multi-View Consistency</a></dd>
 
 <div style="text-align: center; margin-top: 10px;">
   <span>Website visitors:</span><br>
-  <script type="text/javascript" src="https://whomania.com/ctr?id=941605b8a248b0f42b42238b825af648dd30ed27"></script>
+  <script type="text/javascript" src="https://www.free-counters.org/count/jc8o"></script><br>
+ <a href='http://www.counter-zaehler.de'>wordpress counter</a> <script type='text/javascript' src='https://whomania.com/ctr?id=ccce772c68d7b53b8c64bab19f459e873e9f95e8'></script>
 </div>
