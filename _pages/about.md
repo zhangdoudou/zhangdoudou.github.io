@@ -124,6 +124,5 @@ Multi-View Consistency</a></dd>
 <hr>
 
 <div style="text-align: center; margin-top: 10px;">
-  <span>Website visitors:</span><br>
   <script type="text/javascript" src="https://www.free-counters.org/count/jc8o"></script><br>
 </div>
