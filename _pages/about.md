@@ -92,6 +92,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
+# About Me
 
 I am a second year M.Phil. student in Artificial Intelligence at [Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/), supervised by [Prof.Ying-Cong Chen](https://www.yingcong.me/), he is super nice! Previously, I obtained a bachelor degree in Network Engneering at [Wuhan University](https://www.whu.edu.cn/) with Honors. 
 
