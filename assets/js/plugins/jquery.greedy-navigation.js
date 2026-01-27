@@ -42,9 +42,9 @@ function updateNav() {
     }
 
     // Hide the dropdown btn if hidden list is empty
-    if(breaks.length < 1) {
+    // BUT: Don't hide if menu is currently open
+    if(breaks.length < 1 && $hlinks.hasClass('hidden')) {
       $btn.addClass('hidden');
-      $hlinks.addClass('hidden');
     }
   }
 
@@ -64,9 +64,28 @@ $(window).resize(function() {
   updateNav();
 });
 
-$btn.on('click', function() {
+$btn.on('click', function(e) {
+  e.stopPropagation();
   $hlinks.toggleClass('hidden');
   $(this).toggleClass('close');
+});
+
+// Close menu when clicking outside
+$(document).on('click', function(e) {
+  if (!$(e.target).closest('#site-nav').length) {
+    $hlinks.addClass('hidden');
+    $btn.removeClass('close');
+  }
+});
+
+// Prevent menu from closing when clicking on menu links
+$hlinks.on('click', 'a', function(e) {
+  e.stopPropagation();
+  // Close menu after a short delay to allow smooth scroll to start
+  setTimeout(function() {
+    $hlinks.addClass('hidden');
+    $btn.removeClass('close');
+  }, 100);
 });
 
 updateNav();

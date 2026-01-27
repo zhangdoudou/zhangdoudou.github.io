@@ -145,6 +145,9 @@ Multi-View Consistency</a></dd>
 - 2018.09 - 2023.06, Bachelor, Network Engineering, Wuhan University. 
 -->
 
+# Internships
+- 2025.08 - 2025.12, Intern, [Tencent](https://www.tencent.com/), Beijing, China.
+
 <div class="visitor-map-container" style="text-align: center; margin-top: 10px;">
   <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=0htbO1aW3-I8XHiS_BNNqtV-BaMFOWnlRk40-OGO_R0&cl=ffffff&w=a"></script>
 </div>
