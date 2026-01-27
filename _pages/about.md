@@ -125,6 +125,7 @@ My research interests focus on Diffusion Model and generative models, and partic
 
 
 
+<span class='anchor' id='internships'></span>
 # Internships
 - 2025.08 - 2025.12, Intern, [Tencent](https://www.tencent.com/), Beijing, China.
 
