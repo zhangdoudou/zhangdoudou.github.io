@@ -121,7 +121,7 @@ My research interests focus on Diffusion Model and generative models, and partic
 - **Orchestrating Audio: Multi-Agent Framework for Long-Video Audio Synthesis**<br>
   Yehang Zhang<sup>&dagger;</sup>, Xinli Xu<sup>&dagger;</sup>, Xiaojie Xu<sup>&dagger;</sup>, <strong>Doudou Zhang</strong>, Li Liu<sup>*</sup>, Ying-Cong Chen<sup>*</sup><br>
   Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025<br>
-  [<a href="https://aclanthology.org/2025.emnlp-main.1133/" target="_blank">paper</a>] [<a href="https://github.com/Yehang-Zhang/Orchestrating-Audio" target="_blank">project page</a>]
+  [<a href="https://aclanthology.org/2025.emnlp-main.1133/" target="_blank">paper</a>] [<a href="https://lvas-agent.github.io/" target="_blank">project page</a>]
 
 
 
