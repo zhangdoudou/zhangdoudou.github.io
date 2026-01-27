@@ -50,14 +50,14 @@
 
 .page__content {
   #about-me{
-    scroll-margin-top: 60px; // 使用 scroll-margin-top 替代负边距，避免页面顶部空白
-    &:before { 
-      content: ''; 
-      display: block; 
-      position: relative; 
-      width: 0; 
-      height: 0; 
-      margin-top: 0;
+    margin-top: -10em;
+      &:before { 
+        content: ''; 
+        display: block; 
+        position: relative; 
+        width: 0; 
+        height: 10em; 
+        margin-top: -10em;
     }
   }
   h1 {
