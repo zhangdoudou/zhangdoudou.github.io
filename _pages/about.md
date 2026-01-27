@@ -69,7 +69,7 @@ redirect_from:
 
   /* 地图容器样式 */
   .visitor-map-container {
-    max-width: 400px;
+    max-width: 200px;
     width: 100%;
     margin: 10px auto;
     overflow: hidden;
@@ -79,7 +79,7 @@ redirect_from:
   .visitor-map-container div[id*="map"] {
     max-width: 100% !important;
     width: 100% !important;
-    height: 300px !important;
+    height: 150px !important;
   }
   
 </style>
@@ -99,12 +99,14 @@ My research interests focus on Diffusion Model and generative models, and partic
 - Controllable Generation
 - Generalization of Diffusion Model
 
+<span class='anchor' id='news'></span>
 # News
 - *2025.09*: &nbsp;🎉 Our paper "Orchestrating Audio: Multi-Agent Framework for Long-Video Audio Synthesis" was accepted to EMNLP 2025.
 - *2025.07*: &nbsp;🎉 Our paper "MagicCity: Geometry-Aware 3D City Generation from Satellite Imagery with Multi-View Consistency" was accepted to ICCV 2025.
 - *2024.09*: &nbsp;🎉 I started my M.Phil. study at HKUST(GZ) under the supervision of Prof.Ying-Cong Chen.
 
 
+<span class='anchor' id='publications'></span>
 # Publications
 &dagger;: equal contribution, * : corresponding author
 
