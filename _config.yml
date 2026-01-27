@@ -8,14 +8,14 @@
 # Site Settings
 title                    : "Doudou ZHANG"
 description              : "M.Phil. student at Hong Kong University of Science and Technology (Guangzhou)."
-repository               : "doudouzhang-x/doudouzhang-x.github.io"
+repository               : "zhangdoudou/zhangdoudou.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+google_analytics_id      :  G-X5CQKLTV25 # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
+google_site_verification :  WPOBTzqekmZaeQ8_IZ6hrJIeIRoPBGgNEP5_B4boh5w # get google_site_verification from https://search.google.com/search-console/about
 bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
 baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
@@ -27,7 +27,7 @@ author:
   location: "Guangzhou, China"
   employer:
   pubmed:
-  googlescholar: 
+  googlescholar: ""
   email: "dzhang274@connect.hkust-gz.edu.cn"
   researchgate:
   uri:
@@ -37,8 +37,8 @@ author:
   flickr:
   facebook:
   foursquare:
-  github: "doudouzhang-x"
-  google_plus:
+  github: "zhangdoudou"
+  google_plus: 
   keybase:
   instagram:
   impactstory:
