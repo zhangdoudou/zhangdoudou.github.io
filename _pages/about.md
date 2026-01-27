@@ -29,7 +29,7 @@ redirect_from:
 
 
   dl dd {
-  color: #; 
+  color: inherit; 
   margin-top: 1px; 
   margin-bottom: 1px;
 }
