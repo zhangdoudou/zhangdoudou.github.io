@@ -141,8 +141,23 @@
 
   @include breakpoint($large) {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
+}
+
+.author__stats {
+  margin-top: 10px;
+  font-size: $type-size-6;
+}
+
+.author__stats-title {
+  font-weight: bold;
+}
+
+.author__counter,
+.author__ipmap {
+  margin-top: 4px;
+  margin-bottom: 6px;
 }
 
 .author__urls-wrapper {
