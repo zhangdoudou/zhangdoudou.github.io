@@ -112,16 +112,16 @@ My research interests focus on Diffusion Model and generative models, and partic
 
 <hr>
 
-- <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Yao_MagicCity_Geometry-Aware_3D_City_Generation_from_Satellite_Imagery_with_Multi-View_ICCV_2025_paper.html" class="publication-title">MagicCity: Geometry-Aware 3D City Generation from Satellite Imagery with
-Multi-View Consistency</a><br>
+- *MagicCity: Geometry-Aware 3D City Generation from Satellite Imagery with Multi-View Consistency*<br>
   Xingbo Yao<sup>&dagger;</sup>, XuanminWang<sup>&dagger;</sup>, Hao WU<sup>&dagger;</sup>, Chengliang PING, <strong>Doudou ZHANG</strong>,Hui Xiong<sup>*</sup><br>
   International Conference on Computer Vision <strong>(ICCV)</strong>, 2025<br>
+  [<a href="https://openaccess.thecvf.com/content/ICCV2025/html/Yao_MagicCity_Geometry-Aware_3D_City_Generation_from_Satellite_Imagery_with_Multi-View_ICCV_2025_paper.html" target="_blank">paper</a>]
 <hr>
 
-- <a href="https://aclanthology.org/2025.emnlp-main.1133/" class="publication-title">Orchestrating Audio: Multi-Agent Framework for Long-Video Audio Synthesis</a><br>
+- *Orchestrating Audio: Multi-Agent Framework for Long-Video Audio Synthesis*<br>
   Yehang Zhang<sup>&dagger;</sup>, Xinli Xu<sup>&dagger;</sup>, Xiaojie Xu<sup>&dagger;</sup>, <strong>Doudou Zhang</strong>, Li Liu<sup>*</sup>, Ying-Cong Chen<sup>*</sup><br>
   Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025<br>
-  <a href="https://github.com/Yehang-Zhang/Orchestrating-Audio" target="_blank">Project Page</a>
+  [<a href="https://aclanthology.org/2025.emnlp-main.1133/" target="_blank">paper</a>] [<a href="https://github.com/Yehang-Zhang/Orchestrating-Audio" target="_blank">project Page</a>]
 
 
 
