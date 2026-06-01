@@ -94,7 +94,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 # About Me
 
-I am a second year M.Phil. student in Artificial Intelligence at [Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/), supervised by [Prof.Ying-Cong Chen](https://www.yingcong.me/), he is super nice! Previously, I obtained a bachelor degree in Network Engneering at [Wuhan University](https://www.whu.edu.cn/) with Honors. 
+I am a Ph.D. student at [Aalto University](https://www.aalto.fi/en), supervised by [Prof. Qi Chen](https://livreq.github.io/). Previously, I was a M.Phil. student in Artificial Intelligence at [Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/), supervised by [Prof.Ying-Cong Chen](https://www.yingcong.me/). Before that, I obtained a bachelor degree in Network Engneering at [Wuhan University](https://www.whu.edu.cn/) with Honors.
 
 My research interests focus on Diffusion Model and generative models, and particularly on the following topics:
 - Controllable Generation
@@ -102,6 +102,7 @@ My research interests focus on Diffusion Model and generative models, and partic
 
 <span class='anchor' id='news'></span>
 # News
+- *2026.06*: &nbsp;🎉 I started my Ph.D. study at Aalto University under the supervision of Prof. Qi Chen.
 - *2025.09*: &nbsp;🎉 Our paper "Orchestrating Audio: Multi-Agent Framework for Long-Video Audio Synthesis" was accepted to EMNLP 2025.
 - *2025.07*: &nbsp;🎉 Our paper "MagicCity: Geometry-Aware 3D City Generation from Satellite Imagery with Multi-View Consistency" was accepted to ICCV 2025.
 - *2024.09*: &nbsp;🎉 I started my M.Phil. study at HKUST(GZ) under the supervision of Prof.Ying-Cong Chen.
