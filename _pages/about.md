@@ -94,11 +94,9 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 # About Me
 
-I am a Ph.D. student at [Aalto University](https://www.aalto.fi/en), supervised by [Prof. Qi Chen](https://livreq.github.io/). Previously, I was a M.Phil. student in Artificial Intelligence at [Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/), supervised by [Prof.Ying-Cong Chen](https://www.yingcong.me/). Before that, I obtained a bachelor degree in Network Engneering at [Wuhan University](https://www.whu.edu.cn/) with Honors.
+I am a Ph.D. student at [Aalto University](https://www.aalto.fi/en), supervised by [Prof. Qi Chen](https://livreq.github.io/). Previously, I was a M.Phil. student in Artificial Intelligence at [Hong Kong University of Science and Technology (Guangzhou)](https://www.hkust-gz.edu.cn/), supervised by [Prof.Ying-Cong Chen](https://www.yingcong.me/). Before that, I obtained a bachelor degree in Network Engineering at [Wuhan University](https://www.whu.edu.cn/) with Honors.
 
-My research interests focus on Diffusion Model and generative models, and particularly on the following topics:
-- Controllable Generation
-- Generalization of Diffusion Model
+My research interests focus on Generative Models, with an emphasis on Interpretability and Trustworthy AI.
 
 <span class='anchor' id='news'></span>
 # News
