@@ -93,6 +93,23 @@ redirect_from:
     margin-top: 0;
     margin-bottom: 0;
   }
+
+  .author-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .author-legend__item {
+    white-space: nowrap;
+  }
+
+  .author-mark {
+    font-size: 0.75em;
+    line-height: 0;
+    vertical-align: super;
+  }
   
 </style>
 
@@ -125,19 +142,29 @@ My research interests focus on Generative Models, with an emphasis on Interpreta
 
 <span class='anchor' id='publications'></span>
 # Publications
-&dagger;: equal contribution, * : corresponding author
+
+<div class="author-legend" aria-label="Author contribution legend">
+  <span class="author-legend__item">* First author</span>
+  <span class="author-legend__item">&dagger; Co-first author</span>
+  <span class="author-legend__item">&#9993; Corresponding author</span>
+</div>
 
 <hr>
 
-- **MagicCity: Geometry-Aware 3D City Generation from Satellite Imagery with Multi-View Consistency**<br>
-  Xingbo Yao<sup>&dagger;</sup>, XuanminWang<sup>&dagger;</sup>, Hao WU<sup>&dagger;</sup>, Chengliang PING, <strong>Doudou ZHANG</strong>,Hui Xiong<sup>*</sup><br>
-  International Conference on Computer Vision <strong>(ICCV)</strong>, 2025<br>
+- Constrained Look-ahead Guidance for Interference-Aware Flow Editing<br>
+  <strong>Doudou Zhang</strong><sup class="author-mark">*</sup>, Qi Chen<sup class="author-mark">&#9993;</sup><br>
+  Advances in Neural Information Processing Systems (NeurIPS), 2026
+<hr>
+
+- MagicCity: Geometry-Aware 3D City Generation from Satellite Imagery with Multi-View Consistency<br>
+  Xingbo Yao<sup class="author-mark">&dagger;</sup>, Xuanmin Wang<sup class="author-mark">&dagger;</sup>, Hao Wu<sup class="author-mark">&dagger;</sup>, Chengliang Ping, <strong>Doudou Zhang</strong>, Hui Xiong<sup class="author-mark">&#9993;</sup><br>
+  International Conference on Computer Vision (ICCV), 2025<br>
   [<a href="https://openaccess.thecvf.com/content/ICCV2025/html/Yao_MagicCity_Geometry-Aware_3D_City_Generation_from_Satellite_Imagery_with_Multi-View_ICCV_2025_paper.html" target="_blank">paper</a>]
 <hr>
 
-- **Orchestrating Audio: Multi-Agent Framework for Long-Video Audio Synthesis**<br>
-  Yehang Zhang<sup>&dagger;</sup>, Xinli Xu<sup>&dagger;</sup>, Xiaojie Xu<sup>&dagger;</sup>, <strong>Doudou Zhang</strong>, Li Liu<sup>*</sup>, Ying-Cong Chen<sup>*</sup><br>
-  Conference on Empirical Methods in Natural Language Processing <strong>(EMNLP)</strong>, 2025<br>
+- Orchestrating Audio: Multi-Agent Framework for Long-Video Audio Synthesis<br>
+  Yehang Zhang<sup class="author-mark">&dagger;</sup>, Xinli Xu<sup class="author-mark">&dagger;</sup>, Xiaojie Xu<sup class="author-mark">&dagger;</sup>, <strong>Doudou Zhang</strong>, Li Liu<sup class="author-mark">&#9993;</sup>, Ying-Cong Chen<sup class="author-mark">&#9993;</sup><br>
+  Conference on Empirical Methods in Natural Language Processing (EMNLP), 2025<br>
   [<a href="https://aclanthology.org/2025.emnlp-main.1133/" target="_blank">paper</a>] [<a href="https://lvas-agent.github.io/" target="_blank">project page</a>]
 
 
