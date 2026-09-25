@@ -81,6 +81,18 @@ redirect_from:
     width: 100% !important;
     height: 150px !important;
   }
+
+  .news-scroll {
+    height: 9rem;
+    overflow-y: auto;
+    padding-right: 0.75rem;
+    overscroll-behavior: contain;
+  }
+
+  .news-scroll ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   
 </style>
 
@@ -100,11 +112,16 @@ My research interests focus on Generative Models, with an emphasis on Interpreta
 
 <span class='anchor' id='news'></span>
 # News
+
+<div class="news-scroll" tabindex="0" markdown="1">
+
+- *2026.09*: &nbsp;🎉 Our paper "Constrained Look-ahead Guidance for Interference-Aware Flow Editing," my first-authored work, was accepted to NeurIPS 2026!
 - *2026.06*: &nbsp;🎉 I started my Ph.D. study at Aalto University under the supervision of Prof. Qi Chen.
 - *2025.09*: &nbsp;🎉 Our paper "Orchestrating Audio: Multi-Agent Framework for Long-Video Audio Synthesis" was accepted to EMNLP 2025.
 - *2025.07*: &nbsp;🎉 Our paper "MagicCity: Geometry-Aware 3D City Generation from Satellite Imagery with Multi-View Consistency" was accepted to ICCV 2025.
 - *2024.09*: &nbsp;🎉 I started my M.Phil. study at HKUST(GZ) under the supervision of Prof.Ying-Cong Chen.
 
+</div>
 
 <span class='anchor' id='publications'></span>
 # Publications
